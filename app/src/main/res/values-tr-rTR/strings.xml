@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Beuverse</string>
+
+    <!-- Auth -->
+    <string name="login">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="email">E-posta</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="password">Şifre</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="verify_email">E-postanı Doğrula</string>
+
+    <!-- Nav -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_search">Arama</string>
+    <string name="nav_messages">Mesajlar</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- Post -->
+    <string name="share">Paylaş</string>
+    <string name="post_tag_social">Sosyal</string>
+    <string name="post_tag_commercial">Ticari</string>
+    <string name="post_tag_question">Soru</string>
+    <string name="post_tag_complaint">Şikayet</string>
+    <string name="post_tag_announcement">Duyuru</string>
+
+    <!-- General -->
+    <string name="ok">Tamam</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <string name="back">Geri</string>
+
+    <string name="no_account">Hesabın yok mu?</string>
+    <string name="email_or_username">E-posta veya Kullanıcı Adı</string>
+
+    <string name="first_name">Ad</string>
+    <string name="last_name">Soyad</string>
+    <string name="department">Bölüm</string>
+    <string name="password_again">Şifre Tekrar</string>
+    <string name="already_have_account">Zaten hesabın var mı?</string>
+
+    <!-- Departments -->
+    <string name="dept_computer_engineering">Bilgisayar Mühendisliği</string>
+    <string name="dept_electrical_engineering">Elektrik-Elektronik Mühendisliği</string>
+    <string name="dept_mechanical_engineering">Makine Mühendisliği</string>
+    <string name="dept_civil_engineering">İnşaat Mühendisliği</string>
+    <string name="dept_business">İşletme</string>
+    <string name="dept_economics">İktisat</string>
+    <string name="dept_law">Hukuk</string>
+
+    <!-- Home -->
+    <string name="search_posts">Gönderi ara...</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="tag_all">Tümü</string>
+    <string name="tag_social">Sosyal</string>
+    <string name="tag_commercial">Ticari</string>
+    <string name="tag_question">Soru</string>
+    <string name="tag_complaint">Şikayet</string>
+    <string name="tag_announcement">Duyuru</string>
+    <string name="create_post">Gönderi Oluştur</string>
+
+    <!-- Post Card -->
+    <string name="share_post">Paylaş</string>
+    <string name="ago_minutes">%d dk önce</string>
+    <string name="ago_hours">%d saat önce</string>
+
+    <string name="likes">%d beğeni</string>
+    <string name="comments">%d yorum</string>
+    <string name="like">Beğen</string>
+    <string name="comment">Yorum</string>
+    <string name="write_comment">Yorum yaz...</string>
+    <string name="send">Gönder</string>
+    <string name="comments_title">Yorumlar</string>
+
+    <string name="settings">Ayarlar</string>
+    <string name="joined">Katılım: %s</string>
+    <string name="posts_tab">Paylaşımlar</string>
+    <string name="comments_tab">Yorumlar</string>
+    <string name="liked_tab">Beğenilenler</string>
+    <string name="about_me">Kendinizden bahsedin...</string>
+
+    <string name="create_post_title">Yeni Gönderi</string>
+    <string name="post_content_hint">Aklından ne geçiyor?</string>
+    <string name="add_photo">Fotoğraf Ekle</string>
+    <string name="select_tag">Etiket Seç</string>
+    <string name="publish">Paylaş</string>
+    <string name="discard">Vazgeç</string>
+</resources>
