@@ -41,13 +41,16 @@
     <string name="already_have_account">Already have an account?</string>
 
     <!-- Departments -->
-    <string name="dept_computer_engineering">Computer Engineering</string>
-    <string name="dept_electrical_engineering">Electrical Engineering</string>
-    <string name="dept_mechanical_engineering">Mechanical Engineering</string>
-    <string name="dept_civil_engineering">Civil Engineering</string>
-    <string name="dept_business">Business Administration</string>
-    <string name="dept_economics">Economics</string>
-    <string name="dept_law">Law</string>
+    <string name="dept_muhendislik">Faculty of Engineering</string>
+    <string name="dept_tip">Faculty of Medicine</string>
+    <string name="dept_iktisadi">Faculty of Economics and Administrative Sciences</string>
+    <string name="dept_fen">Faculty of Science</string>
+    <string name="dept_dis_hekimligi">Faculty of Dentistry</string>
+    <string name="dept_ilahiyat">Faculty of Theology</string>
+    <string name="dept_saglik">Faculty of Health Sciences</string>
+    <string name="dept_iletisim">Faculty of Communication</string>
+    <string name="dept_spor">Faculty of Sport Sciences</string>
+    <string name="dept_diger">Other</string>
 
     <!-- Home -->
     <string name="search_posts">Search posts...</string>
@@ -89,4 +92,84 @@
     <string name="select_tag">Select Tag</string>
     <string name="publish">Publish</string>
     <string name="discard">Discard</string>
+
+    <!-- Errors -->
+    <string name="error_unknown">An unknown error occurred</string>
+    <string name="error_network">No internet connection</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_not_match">Passwords do not match</string>
+    <string name="error_username_invalid">Username can only contain letters, numbers and underscores</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_content_too_long">Content cannot exceed 500 characters</string>
+    <string name="error_max_images">You can add at most 4 photos</string>
+    <string name="error_email_name_mismatch">Email must match your first or last name</string>
+    <string name="error_invalid_email_domain">Email must end with @karaelmas.edu.tr</string>
+    <string name="error_comment_too_long">Comment cannot exceed 300 characters</string>
+    <string name="error_bio_too_long">Bio cannot exceed 160 characters</string>
+    <string name="error_invalid_credentials">Invalid email/username or password</string>
+    <string name="error_already_exists">This email or username is already in use</string>
+    <string name="error_search_too_short">Search keyword must be at least 2 characters</string>
+
+    <string name="register_success">Registration successful! Please verify your email before logging in.</string>
+
+    <string name="time_just_now">Just now</string>
+    <string name="time_minutes_ago">%d min ago</string>
+    <string name="time_hours_ago">%d hours ago</string>
+    <string name="time_days_ago">%d days ago</string>
+    <string name="time_weeks_ago">%d weeks ago</string>
+    <string name="time_months_ago">%d months ago</string>
+    <string name="time_years_ago">%d years ago</string>
+
+    <string name="logout">Logout</string>
+    <string name="logout_confirm">Are you sure you want to logout?</string>
+    <string name="no_posts_yet">No posts yet.</string>
+    <string name="no_comments_yet">No comments yet.</string>
+    <string name="no_liked_posts_yet">No liked posts yet.</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="view_photo">View Profile Photo</string>
+    <string name="change_photo">Change Profile Photo</string>
+    <string name="edit_bio">Edit Bio</string>
+    <string name="bio_hint">Tell us about yourself...</string>
+    <string name="save_changes">Save Changes</string>
+
+    <string name="search_students">Search students...</string>
+    <string name="search_hint">Search by name or username</string>
+    <string name="no_results">No results found</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="clear_all">Clear All</string>
+
+    <string name="no_notifications">No notifications yet</string>
+    <string name="mark_all_read">Mark all as read</string>
+    <string name="notif_liked_post">%s liked your post</string>
+    <string name="notif_liked_comment">%s liked your comment</string>
+    <string name="notif_commented">%s commented on your post</string>
+    <string name="notif_replied">%s replied to your comment</string>
+
+    <string name="messages">Messages</string>
+    <string name="pending_requests">Pending Requests</string>
+    <string name="active_conversations">Active Conversations</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="no_messages">No messages yet</string>
+    <string name="expires_in">Expires in %s</string>
+    <string name="message_request">wants to chat with you</string>
+    <string name="send_message">Send a message</string>
+    <string name="type_message">Type a message...</string>
+    <string name="conversation_expired">This conversation has expired</string>
+    <string name="delete_conversation">Delete Conversation</string>
+    <string name="delete_conversation_confirm">Are you sure you want to delete this conversation?</string>
+
+    <string name="message_request_sent">Message request sent</string>
+    <string name="message_request_already_exists">You already have a conversation with this user</string>
+
+    <string name="delete_account">Delete Account</string>
+    <string name="delete_account_confirm">Are you sure you want to delete your account? This action cannot be undone.</string>
+
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="error_gallery_permission">Gallery permission is required</string>
+    <string name="error_camera_permission">Camera permission is required</string>
+
 </resources>
