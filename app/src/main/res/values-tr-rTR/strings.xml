@@ -41,13 +41,16 @@
     <string name="already_have_account">Zaten hesabın var mı?</string>
 
     <!-- Departments -->
-    <string name="dept_computer_engineering">Bilgisayar Mühendisliği</string>
-    <string name="dept_electrical_engineering">Elektrik-Elektronik Mühendisliği</string>
-    <string name="dept_mechanical_engineering">Makine Mühendisliği</string>
-    <string name="dept_civil_engineering">İnşaat Mühendisliği</string>
-    <string name="dept_business">İşletme</string>
-    <string name="dept_economics">İktisat</string>
-    <string name="dept_law">Hukuk</string>
+    <string name="dept_muhendislik">Mühendislik Fakültesi</string>
+    <string name="dept_tip">Tıp Fakültesi</string>
+    <string name="dept_iktisadi">İktisadi ve İdari Bilimler Fakültesi</string>
+    <string name="dept_fen">Fen Fakültesi</string>
+    <string name="dept_dis_hekimligi">Diş Hekimliği Fakültesi</string>
+    <string name="dept_ilahiyat">İlahiyat Fakültesi</string>
+    <string name="dept_saglik">Sağlık Bilimleri Fakültesi</string>
+    <string name="dept_iletisim">İletişim Fakültesi</string>
+    <string name="dept_spor">Spor Bilimleri Fakültesi</string>
+    <string name="dept_diger">Diğer</string>
 
     <!-- Home -->
     <string name="search_posts">Gönderi ara...</string>
@@ -86,4 +89,84 @@
     <string name="select_tag">Etiket Seç</string>
     <string name="publish">Paylaş</string>
     <string name="discard">Vazgeç</string>
+
+    <!-- Errors -->
+    <string name="error_unknown">Bilinmeyen bir hata oluştu</string>
+    <string name="error_network">İnternet bağlantısı yok</string>
+    <string name="error_invalid_email">Geçerli bir e-posta adresi giriniz</string>
+    <string name="error_password_too_short">Şifre en az 6 karakter olmalıdır</string>
+    <string name="error_passwords_not_match">Şifreler eşleşmiyor</string>
+    <string name="error_username_invalid">Kullanıcı adı yalnızca harf, rakam ve alt çizgi içerebilir</string>
+    <string name="error_field_required">Bu alan zorunludur</string>
+    <string name="error_content_too_long">İçerik 500 karakteri geçemez</string>
+    <string name="error_max_images">En fazla 4 fotoğraf ekleyebilirsiniz</string>
+    <string name="error_email_name_mismatch">E-posta adresiniz isminizle uyuşmalıdır</string>
+    <string name="error_invalid_email_domain">E-posta @karaelmas.edu.tr ile bitmelidir</string>
+    <string name="error_comment_too_long">Yorum 300 karakteri geçemez</string>
+    <string name="error_bio_too_long">Biyografi 160 karakteri geçemez</string>
+    <string name="error_invalid_credentials">Geçersiz e-posta/kullanıcı adı veya şifre</string>
+    <string name="error_already_exists">Bu e-posta veya kullanıcı adı zaten kullanılıyor</string>
+    <string name="error_search_too_short">Arama en az 2 karakter olmalıdır</string>
+
+    <string name="register_success">Kayıt başarılı! Giriş yapmadan önce e-postanızı onaylayınız.</string>
+
+    <string name="time_just_now">Az önce</string>
+    <string name="time_minutes_ago">%d dk önce</string>
+    <string name="time_hours_ago">%d saat önce</string>
+    <string name="time_days_ago">%d gün önce</string>
+    <string name="time_weeks_ago">%d hafta önce</string>
+    <string name="time_months_ago">%d ay önce</string>
+    <string name="time_years_ago">%d yıl önce</string>
+
+    <string name="logout">Çıkış Yap</string>
+    <string name="logout_confirm">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="no_posts_yet">Henüz gönderi yok.</string>
+    <string name="no_comments_yet">Henüz yorum yapılmadı.</string>
+    <string name="no_liked_posts_yet">Henüz beğenilen gönderi yok.</string>
+
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="view_photo">Profil Fotoğrafını Görüntüle</string>
+    <string name="change_photo">Profil Fotoğrafını Değiştir</string>
+    <string name="edit_bio">Hakkımda Düzenle</string>
+    <string name="bio_hint">Kendinizden bahsedin...</string>
+    <string name="save_changes">Değişiklikleri Kaydet</string>
+
+    <string name="search_students">Öğrenci ara...</string>
+    <string name="search_hint">İsim veya kullanıcı adıyla ara</string>
+    <string name="no_results">Sonuç bulunamadı</string>
+    <string name="recent_searches">Son Aramalar</string>
+    <string name="clear_all">Tümünü Temizle</string>
+
+    <string name="no_notifications">Henüz bildirim yok</string>
+    <string name="mark_all_read">Tümünü okundu işaretle</string>
+    <string name="notif_liked_post">%s gönderinizi beğendi</string>
+    <string name="notif_liked_comment">%s yorumunuzu beğendi</string>
+    <string name="notif_commented">%s gönderinize yorum yaptı</string>
+    <string name="notif_replied">%s yorumunuzu yanıtladı</string>
+
+    <string name="messages">Mesajlar</string>
+    <string name="pending_requests">Bekleyen İstekler</string>
+    <string name="active_conversations">Aktif Konuşmalar</string>
+    <string name="accept">Kabul Et</string>
+    <string name="decline">Reddet</string>
+    <string name="no_messages">Henüz mesaj yok</string>
+    <string name="expires_in">%s içinde sona erer</string>
+    <string name="message_request">sizinle konuşmak istiyor</string>
+    <string name="send_message">Mesaj gönder</string>
+    <string name="type_message">Mesaj yaz...</string>
+    <string name="conversation_expired">Bu konuşmanın süresi dolmuştur</string>
+    <string name="delete_conversation">Konuşmayı Sil</string>
+    <string name="delete_conversation_confirm">Bu konuşmayı silmek istediğinizden emin misiniz?</string>
+
+    <string name="message_request_sent">Mesaj isteği gönderildi</string>
+    <string name="message_request_already_exists">Bu kullanıcıyla zaten bir konuşmanız var</string>
+
+    <string name="delete_account">Hesabı Sil</string>
+    <string name="delete_account_confirm">Hesabınızı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+
+    <string name="gallery">Galeri</string>
+    <string name="camera">Kamera</string>
+    <string name="error_gallery_permission">Galeri izni gerekli</string>
+    <string name="error_camera_permission">Kamera izni gerekli</string>
+
 </resources>
